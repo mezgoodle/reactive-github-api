@@ -41,11 +41,11 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
+				<Api />
+				<Form getMethod={this.gettingInfo} />
 				<Info
 					{...this.state}
 				/>
-				<Form getMethod={this.gettingInfo} />
-				<Api />
 			</div>
 		)
 	}

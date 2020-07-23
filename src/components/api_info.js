@@ -1,9 +1,5 @@
 import React from "react";
 
-const Api = () => (
-	<div>
-		API component
-	</div>
-)
+const Api = () => (<div>GitHub API</div>)
 
 export default Api;
