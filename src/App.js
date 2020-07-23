@@ -4,18 +4,37 @@ import Form from "./components/form";
 import Api from "./components/api_info";
 
 class App extends React.Component {
+
+	state = {
+		login: undefined,
+		html_url: undefined,
+		public_repos: undefined,
+		url: undefined,
+		error: undefined,
+	}
+
 	gettingInfo = async (e) => {
 		e.preventDefault();
 		const user = e.target.elements.user.value;
 		const api_url = await fetch(`https://api.github.com/users/${user}`);
 		const data = await api_url.json();
 		console.log(data)
+
+		this.setState({
+			login: data.login,
+			html_url: data.html_url,
+			public_repos: data.public_repos,
+			url: data.url,
+			error: '',
+		});
 	}
 
 	render() {
 		return (
 			<div>
-				<Info />
+				<Info
+					{...this.state}
+				/>
 				<Form getMethod={this.gettingInfo} />
 				<Api />
 			</div>
