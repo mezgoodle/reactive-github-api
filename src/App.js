@@ -25,8 +25,16 @@ class App extends React.Component {
 				html_url: data.html_url,
 				public_repos: data.public_repos,
 				url: data.url,
-				error: '',
+				error: undefined,
 			});	
+		} else {
+			this.setState({
+				login: undefined,
+				html_url: undefined,
+				public_repos: undefined,
+				url: undefined,
+				error: 'Enter username',
+			})
 		}
 	}
 
