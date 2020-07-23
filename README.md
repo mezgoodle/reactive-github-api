@@ -1,3 +1,6 @@
+https://developer.github.com/v3
+https://www.youtube.com/watch?v=W8sobFFfYks&list=PL0lO_mIqDDFWjZpUTRJ8cBAsTJ5WFk4Cs&index=6
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
