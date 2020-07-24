@@ -7,11 +7,14 @@ const Info = props => (
       <div>
         <p>Repositories: {props.public_repos}</p>
         <p>
-          Link to user: <a href={props.html_url}>{props.login}</a>
+          Link to user:
+          <a target="_blank" rel="noopener noreferrer" href={props.html_url}>
+            {props.login}
+          </a>
         </p>
         <h1 className="text-center">Repositories</h1>
         {props.repos.map(repo => (
-          <Api name={repo.name} />
+          <Api {...repo} />
         ))}
       </div>
     )}
