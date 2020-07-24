@@ -2,6 +2,7 @@
   "name": "reactive-github-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mezgoodle.github.io/reactive-github-api",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,20 +13,24 @@
     "react-scripts": "3.4.1",
     "gh-pages": "^3.1.0"
   },
-  "homepage": "https://mezgoodle.github.io/reactive-github-api",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:fix": "eslint ./ --fix",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -33,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.5.0"
+    "gh-pages": "^3.1.0"
   }
 }
