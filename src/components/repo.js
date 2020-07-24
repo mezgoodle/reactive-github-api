@@ -10,6 +10,7 @@ const Repo = props => (
     >
       {props.name}
     </a>
+    <p>{props.description}</p>
   </div>
 );
 
