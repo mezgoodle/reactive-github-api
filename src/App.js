@@ -1,7 +1,7 @@
 import React from "react";
 import Info from "./components/info";
 import Form from "./components/form";
-import Api from "./components/api_info";
+import Header from "./components/header";
 
 class App extends React.Component {
   state = {
@@ -44,7 +44,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <Api />
+        <Header />
         <Form getMethod={this.gettingInfo} />
         <Info {...this.state} />
       </div>
