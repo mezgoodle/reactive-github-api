@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactive-github-api/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/reactive-github-api/static/js/main.c0cdf5b5.chunk.js",
+    "main.js.map": "/reactive-github-api/static/js/main.c0cdf5b5.chunk.js.map",
+    "runtime-main.js": "/reactive-github-api/static/js/runtime-main.83d4eee9.js",
+    "runtime-main.js.map": "/reactive-github-api/static/js/runtime-main.83d4eee9.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/reactive-github-api/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.abdedf04.chunk.js": "/reactive-github-api/static/js/2.abdedf04.chunk.js",
+    "static/js/2.abdedf04.chunk.js.map": "/reactive-github-api/static/js/2.abdedf04.chunk.js.map",
+    "index.html": "/reactive-github-api/index.html",
+    "precache-manifest.f41cf131d759700e5e306b9c49f9e4c0.js": "/reactive-github-api/precache-manifest.f41cf131d759700e5e306b9c49f9e4c0.js",
+    "service-worker.js": "/reactive-github-api/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/reactive-github-api/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/reactive-github-api/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.abdedf04.chunk.js.LICENSE.txt": "/reactive-github-api/static/js/2.abdedf04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83d4eee9.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.abdedf04.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.c0cdf5b5.chunk.js"
+  ]
+}
